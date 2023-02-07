@@ -1,0 +1,54 @@
+body {
+    &::-webkit-scrollbar {
+        width: 0.35em;
+        border-radius: 10px;
+
+        &-track {
+            background-color: rgba(255, 255, 255, 0.62);
+            opacity: 0.5;
+            border-radius: 10px;
+        }
+
+        &-thumb {
+            background-color: slategrey;
+            outline: 1px solid slategrey;
+            border-radius: 10px;
+        }
+    }
+}
+.ng-trigger-transformPanel {
+    &::-webkit-scrollbar {
+        width: 0.35em;
+        border-radius: 10px;
+
+        &-track {
+            background-color: rgba(255, 255, 255, 0.62);
+            opacity: 0.5;
+            border-radius: 10px;
+        }
+
+        &-thumb {
+            background-color: slategrey;
+            outline: 1px solid slategrey;
+            border-radius: 10px;
+        }
+    }
+}
+
+textarea {
+    &::-webkit-scrollbar {
+        width: 0.5em;
+
+        &-thumb {
+            background-color: $color-white;
+            outline: 1px solid slategrey;
+            border-radius: 10px;
+        }
+
+        &-track {
+            background-color: rgba(255, 255, 255, 0.62);
+            opacity: 0.5;
+            border-radius: 10px;
+        }
+    }
+}

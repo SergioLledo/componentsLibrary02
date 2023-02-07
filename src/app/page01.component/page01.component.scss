@@ -1,0 +1,182 @@
+header{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid blue;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+}
+// .sectionContainer--fullPage{
+//     scroll-snap-type: y mandatory;
+//     overflow-y: scroll;
+// }
+.bodyScroll{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    .section {
+        width: 100%;
+        padding-top: 50px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.05);
+        text-align: center;
+        scroll-snap-align: start;
+        // &:nth-of-type(1){
+        //     background-color: yellow;
+        // }
+        // &:nth-of-type(2){
+        //     background-color: pink;
+        // }
+        // &:nth-of-type(3){
+        //     background-color: orange;
+        // }
+        // &:nth-of-type(4){
+        //     background-color: green;
+        // }
+        // &:nth-of-type(5){
+        //     background-color: purple;
+        // }
+    }
+    .box001{
+        border: 1px solid red;
+        position: relative;
+        &__image{
+            position: absolute;
+            bottom: 0;
+            right: 150px;
+            width: 650px;
+            z-index: 100;
+        }
+        &__colorSpan{
+            position: absolute;
+            position: absolute;
+            bottom: 120px;
+            right: 0;
+            opacity: 0.8;
+            background-color: red;
+            mix-blend-mode: multiply;
+            z-index: 400;
+            height: 300px;
+            width: 60%;
+            z-index: 110;
+        }
+        &__imageSLL{
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            left: 115px;
+            width: 370px;
+        }
+        &__image001{
+            position: absolute;
+            bottom: 125px;
+            left: 75px;
+            width: 170px;
+            transform: rotate(90deg);
+            z-index: 105;
+        }
+        &__tittle{
+            position: absolute;
+            top: 280px;
+            right: 0px;
+            transform: rotate(90deg);
+            h1, h2{
+                text-align: left;
+                text-transform: uppercase;
+                color: black;
+                font-size: 1.5rem;
+                font-weight: 800;
+                margin-bottom: 0;
+            }
+            h2{
+                text-decoration: underline;
+
+            }
+        }
+        &__txt{
+            position: absolute;
+            top: 20%;
+            transform: translateY(-50%);
+            width: 340px;
+            text-align: left;
+            font-size: 1rem;
+            p{
+                color: black;
+                position: relative;
+                &:last-child{
+                    margin-top: 4rem;
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: -10px;
+                    left: 0;
+                    height: 2.5px;
+                    background-color: black;
+                    width: 40vw;
+                    opacity: 0.3;
+                    border-radius: 10px;
+                }
+
+            }
+            &--01{
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &--02{
+                left: 415px;
+            }
+        }
+    }
+    .box002{
+        border: 1px solid green;
+        position: relative;
+        &__image{
+            position: absolute;
+            bottom: 0;
+            left: 100px;
+            width: 500px;
+            z-index: 110;
+        }
+        &__colorSpan{
+            position: absolute;
+            position: absolute;
+            top: 220px;
+            left: 160px;
+            opacity: 0.8;
+            background-color: red;
+            mix-blend-mode: multiply;
+            transform: rotate(45deg);
+            z-index: 400;
+            height: 400px;
+            width: 400px;
+            z-index: 120;
+        }
+        &__hola{
+            position: absolute;
+            top: 205px;
+            left: 65%;
+            width: 250px;
+            z-index: 105;
+            transform: translateX(-50%);
+        }
+        &__txt{
+            position: absolute;
+            top: 235px;
+            left: 65%;
+            width: 250px;
+            z-index: 105;
+            transform: translateX(-50%);
+        }
+    }
+}

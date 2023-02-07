@@ -1,0 +1,35 @@
+// @import "node_modules/bootstrap/scss/bootstrap.scss";
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+// 1 - SETTINGS
+@import "./scss/1-settings/_settings.var.colors";
+@import "./scss/1-settings/_settings.var.fonts";
+
+// 2 - TOOLS
+@import "./scss/2-tools/_tools.structure.scss";
+
+// 3 - GENERIC
+@import "./scss/3-generic/_generic.box-sizing.scss";
+@import "./scss/3-generic/_generic.normalize.scss";
+@import "./scss/3-generic/_generic.reset.scss";
+
+// 4 - TAGS
+@import "./scss/4-tags/_tags.a.scss";
+@import "./scss/4-tags/_tags.button.scss";
+@import "./scss/4-tags/_tags.form.scss";
+@import "./scss/4-tags/_tags.html.scss";
+@import "./scss/4-tags/_tags.list.scss";
+@import "./scss/4-tags/_tags.table.scss";
+
+// 5 - ELEMENTS
+@import "./scss/5-elements/_elements.button.scss";
+@import "./scss/5-elements/_elements.input.scss";
+@import "./scss/5-elements/_elements.link.scss";
+@import "./scss/5-elements/_elements.scrollbar.scss";
+@import "./scss/5-elements/_elements.text.scss";
+@import "./scss/5-elements/_elements.video.scss";
+
+// 6 - COMPONENTS
+@import "./scss/6-components/_components.footer.scss";
+@import "./scss/6-components/_components.header.scss";

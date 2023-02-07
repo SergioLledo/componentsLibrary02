@@ -1,0 +1,75 @@
+<section  class="sectionContainer sectionContainer--center">
+<!-- <div class="cardContainer">
+    <p>This 15-Minute Sesame Noodles recipe is quick and easy to make and can be served warm or cold.  Feel free to add in extra veggies or proteins</p>
+</div> -->
+
+<div class="component-container">
+
+
+    <div class="searcher" [ngClass]="expSearch ? 'expand' : ' '">
+        <button type="button" class="searcher__btn" (click)="expandSearch()">
+            <mat-icon >search</mat-icon>
+        </button>
+        <input class="searcher__input" type="text" placeholder="search">
+        <button type="button" class="searcher__btn searcher__btn--close" (click)="expandSearch()">
+            <mat-icon >close</mat-icon>
+        </button>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="notificator">
+        <button type="button" class="notificator__btn" (click)="activeNotificator()">
+            <mat-icon >notifications</mat-icon>
+        </button>
+        <div class="notificator__block" [ngClass]="actNotificator ? 'active' : ' '">
+            <p class="tittle"> Notifications</p>
+            <div class="info">
+                <div class="info__item">
+                    <div class="profile">
+                        M
+                    </div>
+                    <div class="fast-read">
+                        <p class="name">María Rogles</p>
+                        <p class="message">Subes a por algo de la máquina</p>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <div class="profile">
+                        L
+                    </div>
+                    <div class="fast-read">
+                        <p class="name">Lara García</p>
+                        <p class="message">En acabar la reunión te llamo que necesito contarte un proyecto que hay que empezar</p>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <div class="profile">
+                        K
+                    </div>
+                    <div class="fast-read">
+                        <p class="name">Kike Quintano</p>
+                        <p class="message">jajajajajajajaja</p>
+                    </div>
+                </div>
+                <div class="info__item">
+                    <div class="profile">
+                        E
+                    </div>
+                    <div class="fast-read">
+                        <p class="name">Edu González</p>
+                        <p class="message">Ya te he dejado los cambios listos, bajate el repo nuevo cuando puedas</p>
+                    </div>
+                </div>
+                <div class="info__item more-info">
+                    <div class="profile">
+                        +
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>

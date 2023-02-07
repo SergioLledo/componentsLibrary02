@@ -1,0 +1,115 @@
+// input,
+// textarea,
+// select,
+// button {
+//     font-family: $base-font-family;
+// }
+
+button:focus {
+    outline: 0;
+}
+
+// Change select arrow
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-size: auto;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+}
+
+// Change placeholder color
+input::placeholder,
+select:not(:focus):invalid {
+    color: $color-black;
+    opacity: 1;
+    font-size: 1rem;
+}
+
+input {
+    &::-webkit-input-placeholder {
+        /* Edge */
+        color: $color-gray;
+    }
+    &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: $color-gray;
+    }
+    ::placeholder {
+        color: $color-gray;
+    }
+    &:focus {
+        outline: none;
+        -moz-outline-style: none;
+        outline-style: none;
+        box-shadow: none;
+    }
+}
+
+input,
+textarea,
+select {    
+    // Change focus color
+    &:focus {
+        outline: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+        border: transparent;
+        -webkit-text-fill-color: $color-gray-dark;
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+        box-shadow: 0 0 0px 1000px transparent inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}
+
+// TEXTAREA COLOR
+textarea {
+    &::-webkit-input-placeholder {
+        color: $color-white;
+    }
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        color: $color-white;
+    }
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $color-white;
+    }
+    &:-ms-input-placeholder {
+        color: $color-white;
+    }
+    &::placeholder {
+        color: $color-white;
+    }
+}
+
+input {
+    /* Chrome, Safari, Edge, Opera */
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    /* Firefox */
+    &[type="number"] {
+        -moz-appearance: textfield;
+    }
+    
+    /* Icon customize name */
+    &::-webkit-contacts-auto-fill-button {
+        background-color: $color-white;
+    }
+}
+
+/* Icon textarea */
+::-webkit-resizer {
+    background-color: transparent;
+}

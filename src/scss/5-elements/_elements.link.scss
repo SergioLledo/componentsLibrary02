@@ -1,0 +1,7 @@
+a{
+    color: $color-gray;
+    text-decoration: none;
+    &:hover{
+        color: $color-gray-extradark;
+    }
+}

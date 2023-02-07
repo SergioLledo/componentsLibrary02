@@ -1,0 +1,33 @@
+<section class="sectionContainer sectionContainer--center">
+    <div class="cardContainer" [ngClass]="color01 ? 'changeColor01' : ' '" [ngClass]="color02 ? 'changeColor02' : ' '" [ngClass]="color03 ? 'changeColor03' : ' '">
+        <div class="cardContainer__imgBox img01">
+            <img class="imgBox" src="../../assets/img/page03-img/air.png">
+        </div>
+        <div class="cardContainer__imgBox img02">
+            <img class="imgBox" src="../../assets/img/page03-img/air2.png">
+        </div>
+        <div class="cardContainer__imgBox img03">
+            <img class="imgBox" src="../../assets/img/page03-img/air3.png">
+        </div>
+        <div class="cardContainer__after">
+            <p>Air<br/>Jordan</p>
+        </div>
+        <div class="cardContainer__content">
+            <h2>Nike Air Jordan</h2>
+            <div class="cardContainer__size">
+                <h3>size: </h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+            </div>
+            <div class="cardContainer__color">
+                <h3>Color: </h3>
+                <button type="button" (click)="color01Click()"></button>
+                <button type="button" (click)="color02Click()"></button>
+                <button type="button" (click)="color03Click()"></button>
+            </div>
+            <a href="#">Comprar</a>
+        </div>
+    </div>
+</section>
