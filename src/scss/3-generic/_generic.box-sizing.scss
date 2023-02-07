@@ -19,7 +19,7 @@ html,
         box-sizing: inherit;
     }
 }
-.sectionContainer{
+.section-container{
     width: 100%; 
     height: 100%; 
     display: flex; 
@@ -30,7 +30,7 @@ html,
     &--center{
         justify-content: center;
     }
-    &--fullPage{
+    &--full-page{
         padding: 0;
         overflow-y: auto;
         height: auto;

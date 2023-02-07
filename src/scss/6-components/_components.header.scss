@@ -24,13 +24,10 @@
     &__logo{
         height: 40px;
         width: 40px;
-        svg{
-            .cls-1{
-                fill: $color-gray-extradark;
-            }
-            .cls-2{
-                fill: none;
-            }
+        transition: all .30s ease-in-out;
+        img{
+            height: 40px;
+            width: 40px;
         }
         &--ghost{
             pointer-events: none;
@@ -85,6 +82,9 @@
         .menuList-top{
             display: flex;
             justify-content: space-between;
+
+            flex-direction: column;
+
             width: 100%;
             margin-bottom: 5rem;
             &__left{
@@ -105,6 +105,8 @@
             &__right{
                 display: flex;
                 width: 50%;
+
+                margin-top: 2rem;
                 li{
                     font-size: 1rem;
                     font-weight: 800;
@@ -138,9 +140,13 @@
     }
     
     &--expanse{
-        width: 500px;
+        width: 300px;
         transition: all .30s ease-in-out;
         .header{
+            &__logo{
+                transition: all .30s ease-in-out;
+                padding-left: 2rem;
+            }
             &__menu{
                 padding: 0rem 2rem;
                 width: auto;
