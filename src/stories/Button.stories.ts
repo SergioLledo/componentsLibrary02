@@ -7,7 +7,12 @@ export default {
   component: Button,
   argTypes: {
   },
-  decorators: [componentWrapperDecorator((story) => `<div style="margin: 3em">${story}</div>`)],
+  decorators: [componentWrapperDecorator((story) => `
+  <div style="margin: 3em">
+  ${story}
+  </div>
+  
+  `)],
 } as Meta;
 
 const Template: Story<Button> = (args: Button) => ({
