@@ -1,24 +1,20 @@
-// also exported from '@storybook/angular' if you can deal with breaking changes in 6.1
 import { Story, Meta } from '@storybook/angular/types-6-0';
+import { componentWrapperDecorator} from '@storybook/angular';
 import Button from './button.component';
 
-// More on default export: https://storybook.js.org/docs/angular/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Design System/Elements/Button',
   component: Button,
-  // More on argTypes: https://storybook.js.org/docs/angular/api/argtypes
   argTypes: {
-    backgroundColor: { control: 'color' },
   },
+  decorators: [componentWrapperDecorator((story) => `<div style="margin: 3em">${story}</div>`)],
 } as Meta;
 
-// More on component templates: https://storybook.js.org/docs/angular/writing-stories/introduction#using-args
 const Template: Story<Button> = (args: Button) => ({
   props: args,
 });
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/angular/writing-stories/args
 Primary.args = {
   primary: true,
   label: 'btn-primary',
@@ -29,14 +25,10 @@ Secondary.args = {
   label: 'btn-secondary',
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
+export const Link = Template.bind({});
+Link.args = {
+  label: 'btn-link',
+  disabled: true,
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
-};
+

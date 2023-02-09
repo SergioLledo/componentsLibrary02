@@ -1,15 +1,47 @@
-.btn{
-    &__icon{
-        color: $color-gray;
-        &:hover{
-            color: $color-gray-extradark;
-        }
-    }
+.ds-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  gap: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: 5px 0 0;
+  transition: all .3s ease-in-out;
+
+  &:hover{
+    margin: 0 0 5px;
+  }
+
+  &.disabled{
+    opacity: .5;
+    pointer-events: none;
+    cursor:auto;
+  }
+
+  &--primary{
+    background: #3756A3;
+    border: 1px solid #3756A3;
+    color: #fff;
+    min-width: 169px;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &--secondary{
+    background: #fff;
+    border: 1px solid #1F2022;
+    color: #1F2022;
+    min-width: 169px;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 }
 
 .storybook-button {
-    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
     border: 0;
     border-radius: 3em;
     cursor: pointer;
