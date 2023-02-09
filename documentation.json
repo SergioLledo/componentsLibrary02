@@ -3,12 +3,12 @@
     "interfaces": [
         {
             "name": "User",
-            "id": "interface-User-9c7e5f1bbbab702cb032307d130876cb68969b0cd4eedef32a0c8cad8081a54e5f8f577ed6ad4539c1b99a1d246cb34031d198c2ea8eba440e64e91b14f01fdc",
+            "id": "interface-User-dcc5c3137cd472dd0002d85b562efd23162e3eff53ca4438a6251e6c46e3b8299076255380d1d42f386510cb6f2cbaab49fa5b5f253be459cdc3869428c5c400",
             "file": "src/stories/User.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface User {}\n",
+            "sourceCode": "export interface User {}\r\n",
             "properties": [],
             "indexSignatures": [],
             "methods": []
@@ -20,12 +20,12 @@
     "classes": [
         {
             "name": "AppPage",
-            "id": "class-AppPage-216456583e25428faed77a4328eb6552448b3ca5a60c594cca6093d48f5332766845debfe0c05c76cc89e95f1f958caf3ad9253a229c2cc3a570b8ec03f2b4c7",
+            "id": "class-AppPage-21c7d8a0be483fc28fd747d590d088706f3703ca65a3e46a144e2b5eeeccdc43f1c5482bf5e8aa8964c575e76ed229e02e852d20baa1bb0296da230a3cc778b3",
             "file": "e2e/src/app.po.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "class",
-            "sourceCode": "import { browser, by, element } from 'protractor';\n\nexport class AppPage {\n  navigateTo(): Promise<unknown> {\n    return browser.get(browser.baseUrl) as Promise<unknown>;\n  }\n\n  getTitleText(): Promise<string> {\n    return element(by.css('app-root .content span')).getText() as Promise<string>;\n  }\n}\n",
+            "sourceCode": "import { browser, by, element } from 'protractor';\r\n\r\nexport class AppPage {\r\n  navigateTo(): Promise<unknown> {\r\n    return browser.get(browser.baseUrl) as Promise<unknown>;\r\n  }\r\n\r\n  getTitleText(): Promise<string> {\r\n    return element(by.css('app-root .content span')).getText() as Promise<string>;\r\n  }\r\n}\r\n",
             "properties": [],
             "methods": [
                 {
@@ -60,7 +60,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-893e0408e8417ed5e835f7c3249785836b76550e737a62ef3d177c1b796bc9dcbc0c4eb831b3b4616d81e1a4a0ff651b1a1731c510a8cd8d6e3b2a77aa336ac0",
+            "id": "component-AppComponent-a53c90b4aa2a2346cc05ec44dde1b6c282796f33a259292cc84ba5d87852937f9e6e95437f12d3d65770fb532b05f903db47e3de00add0667352efb339c18dec",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -98,7 +98,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'P01';\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.scss']\r\n})\r\nexport class AppComponent {\r\n  title = 'P01';\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -107,11 +107,11 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "\n\n<!-- <div style=\"\n  width: 100%;\n  height: 50px;\n  margin-bottom: 30px;\n  background-color: red;\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  font-size: 12px;\n  position: fixed;\n  z-index: 300;\n  top: 0;\n  left: 0;\n\"\n>\n<a href=\"#\" target=\"blank\"> Ruta1</a>\n<a href=\"#\" target=\"blank\"> Ruta2</a>\n<a href=\"#\" target=\"blank\"> Ruta3</a>\n</div>\n\n<div\nstyle=\"\n  width: 100%;\n  height: 100%;\n  padding-top: 65px;\n  background-color: beige;\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-direction: column;\n\"\n>\n<p>aaa</p>\n<comp01></comp01>\n</div> -->\n\n<section class=\"container\">\n  <header-comp></header-comp>\n  <router-outlet></router-outlet>\n</section>\n"
+            "templateData": "\r\n\r\n<!-- <div style=\"\r\n  width: 100%;\r\n  height: 50px;\r\n  margin-bottom: 30px;\r\n  background-color: red;\r\n  color: white;\r\n  display: flex;\r\n  justify-content: space-around;\r\n  align-items: center;\r\n  font-size: 12px;\r\n  position: fixed;\r\n  z-index: 300;\r\n  top: 0;\r\n  left: 0;\r\n\"\r\n>\r\n<a href=\"#\" target=\"blank\"> Ruta1</a>\r\n<a href=\"#\" target=\"blank\"> Ruta2</a>\r\n<a href=\"#\" target=\"blank\"> Ruta3</a>\r\n</div>\r\n\r\n<div\r\nstyle=\"\r\n  width: 100%;\r\n  height: 100%;\r\n  padding-top: 65px;\r\n  background-color: beige;\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n  flex-direction: column;\r\n\"\r\n>\r\n<p>aaa</p>\r\n<comp01></comp01>\r\n</div> -->\r\n\r\n<section class=\"container\">\r\n  <header-comp></header-comp>\r\n  <router-outlet></router-outlet>\r\n</section>\r\n"
         },
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-4ef205c97a334c309aa4001c8ab4a6d9571dcae18d0e85aaf0d367467ab5d3a9f13ab3573726f1fcb409bc9b49894dadfb80b1bbe1b6ba7041455ad9d4922004",
+            "id": "component-ButtonComponent-8ceaf520f96e5437b08eeda244d84efb29effe62ddca4fc38eaa229085c2a1126c5715e61445bae741505aca1e4d377b350cb05fadd1dc45d9b2bbf7527029f1",
             "file": "src/stories/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -144,15 +144,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 711,
-                            "end": 724,
+                            "pos": 747,
+                            "end": 761,
                             "flags": 4227072,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 325,
                             "tagName": {
-                                "pos": 712,
-                                "end": 720,
+                                "pos": 748,
+                                "end": 756,
                                 "flags": 4227072,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -212,11 +212,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'storybook-button',\n  template: ` <button\n    type=\"button\"\n    (click)=\"onClick.emit($event)\"\n    [ngClass]=\"classes\"\n    [ngStyle]=\"{ 'background-color': backgroundColor }\"\n  >\n    {{ label }}\n  </button>`,\n  styleUrls: ['./button.css'],\n})\nexport default class ButtonComponent {\n  /**\n   * Is this the principal call to action on the page?\n   */\n  @Input()\n  primary = false;\n\n  /**\n   * What background color to use\n   */\n  @Input()\n  backgroundColor?: string;\n\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /**\n   * Optional click handler\n   */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'storybook-button',\r\n  template: ` <button\r\n    type=\"button\"\r\n    (click)=\"onClick.emit($event)\"\r\n    [ngClass]=\"classes\"\r\n    [ngStyle]=\"{ 'background-color': backgroundColor }\"\r\n  >\r\n    {{ label }}\r\n  </button>`,\r\n  styleUrls: ['./button.css'],\r\n})\r\nexport default class ButtonComponent {\r\n  /**\r\n   * Is this the principal call to action on the page?\r\n   */\r\n  @Input()\r\n  primary = false;\r\n\r\n  /**\r\n   * What background color to use\r\n   */\r\n  @Input()\r\n  backgroundColor?: string;\r\n\r\n  /**\r\n   * How large should the button be?\r\n   */\r\n  @Input()\r\n  size: 'small' | 'medium' | 'large' = 'medium';\r\n\r\n  /**\r\n   * Button contents\r\n   *\r\n   * @required\r\n   */\r\n  @Input()\r\n  label = 'Button';\r\n\r\n  /**\r\n   * Optional click handler\r\n   */\r\n  @Output()\r\n  onClick = new EventEmitter<Event>();\r\n\r\n  public get classes(): string[] {\r\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\r\n\r\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\r\n  }\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-button {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-weight: 700;\n  border: 0;\n  border-radius: 8px;\n  cursor: pointer;\n  display: inline-block;\n  line-height: 1;\n}\n.storybook-button--primary {\n  color: white;\n  background-color: #1ea7fd;\n}\n.storybook-button--primary:hover {\n  color: white;\n  background-color: #157bbb;\n  background-color: red;\n}\n.storybook-button--primary:disabled {\n  pointer-events: none;\n  opacity: .5;\n}\n.storybook-button--secondary {\n  color: #333;\n  background-color: transparent;\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;\n}\n.storybook-button--small {\n  font-size: 12px;\n  padding: 10px 16px;\n}\n.storybook-button--medium {\n  font-size: 14px;\n  padding: 11px 20px;\n}\n.storybook-button--large {\n  font-size: 16px;\n  padding: 12px 24px;\n}\n",
+                    "data": ".storybook-button {\r\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n  font-weight: 700;\r\n  border: 0;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  line-height: 1;\r\n}\r\n.storybook-button--primary {\r\n  color: white;\r\n  background-color: #1ea7fd;\r\n}\r\n.storybook-button--primary:hover {\r\n  color: white;\r\n  background-color: #157bbb;\r\n  background-color: red;\r\n}\r\n.storybook-button--primary:disabled {\r\n  pointer-events: none;\r\n  opacity: .5;\r\n}\r\n.storybook-button--secondary {\r\n  color: #333;\r\n  background-color: transparent;\r\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;\r\n}\r\n.storybook-button--small {\r\n  font-size: 12px;\r\n  padding: 10px 16px;\r\n}\r\n.storybook-button--medium {\r\n  font-size: 14px;\r\n  padding: 11px 20px;\r\n}\r\n.storybook-button--large {\r\n  font-size: 16px;\r\n  padding: 12px 24px;\r\n}\r\n",
                     "styleUrl": "./button.css"
                 }
             ],
@@ -234,8 +234,102 @@
             }
         },
         {
+            "name": "CardComponent",
+            "id": "component-CardComponent-1c81e1f23f4b2315d344b7094a27eec0dff4cdd829ff52c1bfac17f506af024d7ccc5d22b89e6300c08f808296bc6c62e7e5b79b40b8369405fc3b53205854fc",
+            "file": "src/stories/card.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-button",
+            "styleUrls": [
+                "./card.css",
+                "./../scss/6-components/_components.card.scss"
+            ],
+            "styles": [],
+            "template": "\n  <!-- <div\n  class=\"pepe\"\n    [ngClass]=\"classes\"\n    [ngStyle]=\"{ 'background-color': backgroundColor }\"\n  >\n  <h1>\n      {{ title }}\n  </h1>\n  <p>{{text}}</p>\n</div> -->\n\n<div\n    class=\"card-product\"\n    [ngClass]=\"classes\"\n>\n    <div class=\"card-product__img-box img01\">\n        <img class=\"img-box\" src=\"./assets/stackalt.svg\">\n    </div>\n    <div class=\"card-product__after\">\n        <p>Air<br/>Jordan</p>\n    </div>\n    <div class=\"card-product__content\">\n        <h2>Nike Air Jordan</h2>\n        <div class=\"card-product__size\">\n            <h3>size: </h3>\n            <span>7</span>\n            <span>8</span>\n            <span>9</span>\n            <span>10</span>\n        </div>\n        <div class=\"card-product__color\">\n            <h3>Color: </h3>\n            <button type=\"button\" ></button>\n            <button type=\"button\" ></button>\n            <button type=\"button\" ></button>\n        </div>\n        <a href=\"#\">Comprar</a>\n    </div>\n</div>\n\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "primary",
+                    "defaultValue": "true",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 53,
+                    "type": "boolean",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "backgroundColor",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": true,
+                    "description": "",
+                    "line": 54
+                },
+                {
+                    "name": "text",
+                    "defaultValue": "'Esto es el contenido de la card'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 56
+                },
+                {
+                    "name": "title",
+                    "defaultValue": "'Esto es el titulo'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 55
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'storybook-button',\r\n  template: ` \r\n  \r\n  <!-- <div\r\n  class=\"pepe\"\r\n    [ngClass]=\"classes\"\r\n    [ngStyle]=\"{ 'background-color': backgroundColor }\"\r\n  >\r\n  <h1>\r\n      {{ title }}\r\n  </h1>\r\n  <p>{{text}}</p>\r\n</div> -->\r\n\r\n<div \r\n    class=\"card-product\"\r\n    [ngClass]=\"classes\"\r\n>\r\n    <div class=\"card-product__img-box img01\">\r\n        <img class=\"img-box\" src=\"./assets/stackalt.svg\">\r\n    </div>\r\n    <div class=\"card-product__after\">\r\n        <p>Air<br/>Jordan</p>\r\n    </div>\r\n    <div class=\"card-product__content\">\r\n        <h2>Nike Air Jordan</h2>\r\n        <div class=\"card-product__size\">\r\n            <h3>size: </h3>\r\n            <span>7</span>\r\n            <span>8</span>\r\n            <span>9</span>\r\n            <span>10</span>\r\n        </div>\r\n        <div class=\"card-product__color\">\r\n            <h3>Color: </h3>\r\n            <button type=\"button\" ></button>\r\n            <button type=\"button\" ></button>\r\n            <button type=\"button\" ></button>\r\n        </div>\r\n        <a href=\"#\">Comprar</a>\r\n    </div>\r\n</div>\r\n\r\n`,\r\n  styleUrls: ['./card.css', './../scss/6-components/_components.card.scss'],\r\n})\r\nexport default class CardComponent {\r\n\r\n  @Input()\r\n  primary = true;\r\n  backgroundColor?: string;\r\n  title = 'Esto es el titulo';\r\n  text = 'Esto es el contenido de la card'\r\n\r\n\r\n  public get classes(): string[] {\r\n    const mode = this.primary ? 'storybook-card--primary' : 'storybook-card--secondary';\r\n\r\n    return ['storybook-card', mode];\r\n  }\r\n\r\n}",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./card.css"
+                },
+                {
+                    "data": ".storybook-card{\r\n    width: 300px;\r\n    height: a;\r\n    display: flex;\r\n    flex-direction: column;\r\n    border-radius: .5rem;\r\n    padding: 1rem 1.5rem;\r\n    transition: all ease-in-out .3s;\r\n    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);\r\n    margin-top: .5rem;\r\n    \r\n    &:hover{\r\n        margin-top: 0rem;\r\n        transition: all ease-in-out .3s;\r\n        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);\r\n    }\r\n\r\n    h1{\r\n        font-weight: 900;\r\n        font-size: 1.25rem;\r\n        line-height: 1;\r\n        text-transform: uppercase;\r\n        margin: 0;\r\n    }\r\n}\r\n\r\n.card-product{\r\n    position: relative;\r\n    width: 320px;\r\n    height: 450px;\r\n    background-color: #232323;\r\n    border-radius: 20px;\r\n    overflow: hidden;\r\n    &:before{\r\n        content: '';\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        background-color: #a2232e;\r\n        clip-path: circle(150px at 80% 20%);\r\n        transition: 0.5s ease-in-out;\r\n    }\r\n    &__after{\r\n        position: absolute;\r\n        top: 10%;\r\n        left: -10%;\r\n        height: 100%;\r\n        width: 100%;\r\n        p{\r\n            line-height: 135px;\r\n            font-size: 12em;\r\n            font-weight: 800;\r\n            font-style: italic;\r\n            color: rgba(255, 255, 255, 0.04);\r\n        }\r\n    }\r\n    &__imgBox{\r\n        &.img02{\r\n            display: none;\r\n        }\r\n        &.img03{\r\n            display: none;\r\n        }\r\n        position: absolute;\r\n        top: 50%;\r\n        transform: translateY(-75%);\r\n        z-index: 300;\r\n        width: 100%;\r\n        height: 200px;\r\n        transition: 1s;\r\n        .imgBox{\r\n            position: absolute;\r\n            top: 50%;\r\n            left: 50%;\r\n            transform: translate(-50%, -50%) rotate(-25deg) scaleX(-1);\r\n            width: 270px;\r\n        }\r\n    }\r\n    &__content{\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        position: absolute;\r\n        bottom: 0;\r\n        width: 100%;\r\n        height: 100px;\r\n        text-align: center;\r\n        transition: 1s;\r\n        z-index: 10;\r\n        h2{\r\n            position: relative;\r\n            font-weight: 600;\r\n            letter-spacing: 1px;\r\n            color: #fff;\r\n        }\r\n        a{\r\n            display: inline-block;\r\n            padding: 10px 20px;\r\n            background-color: #fff;\r\n            border-radius: 4px;\r\n            margin-top: 10px;\r\n            text-decoration: none;\r\n            font-weight: 600;\r\n            color: #111;\r\n            opacity: 0;\r\n            transform: translateY(50px);\r\n            transition: 0.5s;\r\n        }\r\n    }\r\n    &__size, &__color{\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 8px 20px;\r\n        transition: 0.5s;\r\n        opacity: 0;\r\n        visibility: hidden;\r\n        h3{\r\n            color: #fff;\r\n            font-weight: 300;\r\n            font-size: 14px;\r\n            text-transform: uppercase;\r\n            letter-spacing: 2px;\r\n            margin-right: 10px;\r\n            margin-bottom: 0;\r\n        }\r\n        span, button{\r\n            width: 26px;\r\n            height: 26px;\r\n            text-align: center;\r\n            line-height: 26px;\r\n            font-size: 14px;\r\n            display: inline-block;\r\n            color: #111;\r\n            background-color: #fff;\r\n            margin: 0 5px;\r\n            transition: 0.5s;\r\n            color: #111;\r\n            border-radius: 5px;\r\n            cursor: pointer;\r\n            &:hover{\r\n                background-color: #024281;\r\n                color: #fff;\r\n            }\r\n        }\r\n    }\r\n    &__color{\r\n        button{\r\n            border-radius: 100px;\r\n            position: relative;\r\n            overflow: hidden;\r\n            -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            border: 0;\r\n            &:nth-child(2){\r\n                background-color: #a2232e;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #024281;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:nth-child(3){\r\n                background-color: #f0c600;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #81027a;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:nth-child(4){\r\n                background-color: #f400d4;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #05cb00;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:hover{\r\n                border: 2px solid #fff;\r\n            }\r\n        }\r\n    }\r\n    &:hover{\r\n        .card-product__imgBox{\r\n            top: 5%;\r\n            transform: translateY(0%);\r\n        }\r\n        .card-product__content{\r\n            height: 210px;\r\n            .card-product__size{\r\n                opacity: 1;\r\n                visibility: visible;\r\n                transition-delay: 0.5s;\r\n            }\r\n            .card-product__color{\r\n                opacity: 1;\r\n                visibility: visible;\r\n                transition-delay: 0.5s;\r\n            }\r\n            a{\r\n                opacity: 1;\r\n                transform: translateY(0px);\r\n                transition-delay: 0.75s;            \r\n                &:hover{\r\n                    background-color: #024281;\r\n                    color: #fff;\r\n                    transition-delay: 0s;\r\n                }\r\n            }\r\n        }\r\n        &:before{\r\n            clip-path: circle(300px at 80% 20%);\r\n        }\r\n    }\r\n\r\n    &.changeColor01{\r\n        &:before{\r\n            content: '';\r\n            background-color: #a2232e;\r\n        }\r\n        .card-product__imgBox{\r\n            &.img01{\r\n                display: initial;\r\n            }\r\n            &.img02{\r\n                display: none;\r\n            }\r\n            &.img03{\r\n                display: none;\r\n            }\r\n        }\r\n        .card-product__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #024281;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #024281;\r\n                }\r\n            }\r\n        }\r\n    }\r\n    &.changeColor02{\r\n        &:before{\r\n            content: '';\r\n            background-color: #f0c600;\r\n        }\r\n        .card-product__imgBox{\r\n            &.img01{\r\n                display: none;\r\n            }\r\n            &.img02{\r\n                display: initial;\r\n            }\r\n            &.img03{\r\n                display: none;\r\n            }\r\n        }\r\n        .card-product__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #81027a !important;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #81027a !important;\r\n                }\r\n            }\r\n        }\r\n    }\r\n    &.changeColor03{\r\n        &:before{\r\n            content: '';\r\n            background-color: #f400d4;\r\n        }\r\n        .card-product__imgBox{\r\n            &.img01{\r\n                display: none;\r\n            }\r\n            &.img02{\r\n                display: none;\r\n            }\r\n            &.img03{\r\n                display: initial;\r\n            }\r\n        }\r\n        .card-product__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #05cb00 !important;\r\n                    color: #232323 !important;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #05cb00 !important;\r\n                    color: #232323 !important;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",
+                    "styleUrl": "./../scss/6-components/_components.card.scss"
+                }
+            ],
+            "stylesData": "",
+            "accessors": {
+                "classes": {
+                    "name": "classes",
+                    "getSignature": {
+                        "name": "classes",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 59
+                    }
+                }
+            }
+        },
+        {
             "name": "Componente01Component",
-            "id": "component-Componente01Component-a0333268ba225f26fdb59497eab50eb402d910b332041341b8c4a2f012fbf25de54e5589bcb8915f268c88ae5238184b73c06202bff805e56d2a529f8c94b80d",
+            "id": "component-Componente01Component-9fe524a197d7d67ba0715a4f7acff9f6c65ddc323530c96944134f4b18532f4e7e86abc2fdedd6d17766c027dc7d7f032b54ce1fcd77db00ae41b92593e9b462",
             "file": "src/app/componente01/componente01.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -287,15 +381,15 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component ({\n    selector: \"comp01\",\n    templateUrl: './componente01.component.html',\n})\n\nexport class Componente01Component{\n    public nombre_componente = 'Componente 01';\n    public lista_component = 'Texto sin sentido de prueba';\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component ({\r\n    selector: \"comp01\",\r\n    templateUrl: './componente01.component.html',\r\n})\r\n\r\nexport class Componente01Component{\r\n    public nombre_componente = 'Componente 01';\r\n    public lista_component = 'Texto sin sentido de prueba';\r\n}",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
-            "templateData": "\n<h1>{{nombre_componente}}</h1>\n<p>viene de plantilla</p>\n<p>{{lista_component}}</p>"
+            "templateData": "\r\n<h1>{{nombre_componente}}</h1>\r\n<p>viene de plantilla</p>\r\n<p>{{lista_component}}</p>"
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-a557eec14f72c438a8033301f4d6ce023e0a1844a3b06ec2b38794a612acc31735ae78a5ee10071b230c8c20d699eb914554e69d07ade54adb371da8efb464cc",
+            "id": "component-HeaderComponent-bda17aa3451a9f731685153f2587877b8267c32007f05e7abad3581336e6bc02346a1b660e8c69c4d90b4526b6e047b3ac1f4246252c9dc83985c9148aab5e97",
             "file": "src/stories/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -356,11 +450,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { User } from './User';\n\n@Component({\n  selector: 'storybook-header',\n  template: `<header>\n    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>Acme</h1>\n      </div>\n      <div>\n        <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n            >!\n          </span>\n          <storybook-button\n            *ngIf=\"user\"\n            size=\"small\"\n            (onClick)=\"onLogout.emit($event)\"\n            label=\"Log out\"\n          ></storybook-button>\n        </div>\n        <div *ngIf=\"!user\">\n          <storybook-button\n            *ngIf=\"!user\"\n            size=\"small\"\n            class=\"margin-left\"\n            (onClick)=\"onLogin.emit($event)\"\n            label=\"Log in\"\n          ></storybook-button>\n          <storybook-button\n            *ngIf=\"!user\"\n            primary\n            size=\"small\"\n            primary=\"true\"\n            class=\"margin-left\"\n            (onClick)=\"onCreateAccount.emit($event)\"\n            label=\"Sign up\"\n          ></storybook-button>\n        </div>\n      </div>\n    </div>\n  </header>`,\n  styleUrls: ['./header.css'],\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | null = null;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\r\nimport { User } from './User';\r\n\r\n@Component({\r\n  selector: 'storybook-header',\r\n  template: `<header>\r\n    <div class=\"wrapper\">\r\n      <div>\r\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\r\n          <g fill=\"none\" fillRule=\"evenodd\">\r\n            <path\r\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\r\n              fill=\"#FFF\"\r\n            />\r\n            <path\r\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\r\n              fill=\"#555AB9\"\r\n            />\r\n            <path\r\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\r\n              fill=\"#91BAF8\"\r\n            />\r\n          </g>\r\n        </svg>\r\n        <h1>Acme</h1>\r\n      </div>\r\n      <div>\r\n        <div *ngIf=\"user\">\r\n          <span class=\"welcome\">\r\n            Welcome, <b>{{ user.name }}</b\r\n            >!\r\n          </span>\r\n          <storybook-button\r\n            *ngIf=\"user\"\r\n            size=\"small\"\r\n            (onClick)=\"onLogout.emit($event)\"\r\n            label=\"Log out\"\r\n          ></storybook-button>\r\n        </div>\r\n        <div *ngIf=\"!user\">\r\n          <storybook-button\r\n            *ngIf=\"!user\"\r\n            size=\"small\"\r\n            class=\"margin-left\"\r\n            (onClick)=\"onLogin.emit($event)\"\r\n            label=\"Log in\"\r\n          ></storybook-button>\r\n          <storybook-button\r\n            *ngIf=\"!user\"\r\n            primary\r\n            size=\"small\"\r\n            primary=\"true\"\r\n            class=\"margin-left\"\r\n            (onClick)=\"onCreateAccount.emit($event)\"\r\n            label=\"Sign up\"\r\n          ></storybook-button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>`,\r\n  styleUrls: ['./header.css'],\r\n})\r\nexport default class HeaderComponent {\r\n  @Input()\r\n  user: User | null = null;\r\n\r\n  @Output()\r\n  onLogin = new EventEmitter<Event>();\r\n\r\n  @Output()\r\n  onLogout = new EventEmitter<Event>();\r\n\r\n  @Output()\r\n  onCreateAccount = new EventEmitter<Event>();\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".wrapper {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\n  padding: 15px 20px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\nsvg {\n  display: inline-block;\n  vertical-align: top;\n}\n\nh1 {\n  font-weight: 900;\n  font-size: 20px;\n  line-height: 1;\n  margin: 6px 0 6px 10px;\n  display: inline-block;\n  vertical-align: top;\n}\n\nbutton + button {\n  margin-left: 10px;\n}\n\n.welcome {\n  color: #333;\n  font-size: 14px;\n  margin-right: 10px;\n}\n",
+                    "data": ".wrapper {\r\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\r\n  padding: 15px 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n.wrapper h1 {\r\n  font-weight: 900;\r\n  font-size: 20px;\r\n  line-height: 1;\r\n  margin: 6px 0 6px 10px;\r\n  display: inline-block;\r\n  vertical-align: top;\r\n}\r\n\r\nsvg {\r\n  display: inline-block;\r\n  vertical-align: top;\r\n}\r\n\r\n\r\nbutton + button {\r\n  margin-left: 10px;\r\n}\r\n\r\n.welcome {\r\n  color: #333;\r\n  font-size: 14px;\r\n  margin-right: 10px;\r\n}\r\n",
                     "styleUrl": "./header.css"
                 }
             ],
@@ -368,7 +462,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-0aa333355dd3a5d705eb5fbe375a9df917600b88e913c23f1714ed23698ce64ab06b2d654804722da749a44cde513cac774de69737b0988908ef0fd5f00b7ae6-1",
+            "id": "component-HeaderComponent-c3afbc20d2f5b3810c44546c5a4e18661aef808b1e16fd43878ccd879e49fa436f93f74ac1218fc9f12503e413d2fe1fff0c4d21c0ae3a0c9acc67a9c2444aca-1",
             "file": "src/app/components/header.component/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -499,18 +593,18 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component ({\n    selector: \"header-comp\",\n    templateUrl: './header.component.html',\n})\n\nexport class HeaderComponent{\n    public nombre_componente = 'HEADer 01';\n    public lista_component = 'Texto sin sentido de prueba';\n    public status: boolean = false;\n    public menuExp: boolean = false;\n    public hiMenu: boolean = false;\n\n    public clickEvent() {\n        this.status = !this.status;\n      }\n    \n      public menuExpanse() {\n        this.menuExp = !this.menuExp;\n      }\n      public hideMenu() {\n        this.hiMenu = !this.hiMenu;\n      }\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component ({\r\n    selector: \"header-comp\",\r\n    templateUrl: './header.component.html',\r\n})\r\n\r\nexport class HeaderComponent{\r\n    public nombre_componente = 'HEADer 01';\r\n    public lista_component = 'Texto sin sentido de prueba';\r\n    public status: boolean = false;\r\n    public menuExp: boolean = false;\r\n    public hiMenu: boolean = false;\r\n\r\n    public clickEvent() {\r\n        this.status = !this.status;\r\n      }\r\n    \r\n      public menuExpanse() {\r\n        this.menuExp = !this.menuExp;\r\n      }\r\n      public hideMenu() {\r\n        this.hiMenu = !this.hiMenu;\r\n      }\r\n}",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
             "isDuplicate": true,
             "duplicateId": 1,
             "duplicateName": "HeaderComponent-1",
-            "templateData": "<header class=\"header\" [ngClass]=\"menuExp ? 'header--expanse' : ' '\" [ngClass]=\"hiMenu ? 'goHide-Menu' : ' '\">\n    <div class=\"header__logo\">\n        <img src=\"./../../../assets/img/omega.png\" alt=\"omega\">\n    </div>\n    <div class=\"header__content\">\n        <div class=\"header__menu\">\n            <div class=\"menuList-top\">\n                <div class=\"menuList-top__left\">\n                    <ul>\n                        <li>\n                            <a [routerLink]=\"['/page']\">LINK 1</a>\n                        </li>\n                        <li>\n                            <a [routerLink]=\"['/page2']\">LINK 2</a>\n                        </li>\n                        <li>\n                            <a [routerLink]=\"['/page3']\">LINK 3</a>\n                        </li>\n                    </ul>\n                </div>\n                <div class=\"menuList-top__right\">\n                    <ul>\n                        <li>\n                            <a href=\"#\">unknown 1</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 2</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 3</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 4</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 5</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 6</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">unknown 7</a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n\n        </div>\n        <button (click)=\"menuExpanse()\"  type=\"button\" class=\"header__btn btn btn__icon\">\n            <mat-icon >drag_handle</mat-icon>\n        </button>\n    </div>\n    <span class=\"header__logo header__logo--ghost\"></span>\n</header>\n<button class=\"hide-btn\" (click)=\"hideMenu()\">\n    <mat-icon >motion_photos_on</mat-icon>\n</button>"
+            "templateData": "<header class=\"header\" [ngClass]=\"menuExp ? 'header--expanse' : ' '\" [ngClass]=\"hiMenu ? 'goHide-Menu' : ' '\">\r\n    <div class=\"header__logo\">\r\n        <img src=\"./../../../assets/img/omega.png\" alt=\"omega\">\r\n    </div>\r\n    <div class=\"header__content\">\r\n        <div class=\"header__menu\">\r\n            <div class=\"menuList-top\">\r\n                <div class=\"menuList-top__left\">\r\n                    <ul>\r\n                        <li>\r\n                            <a [routerLink]=\"['/page']\">LINK 1</a>\r\n                        </li>\r\n                        <li>\r\n                            <a [routerLink]=\"['/page2']\">LINK 2</a>\r\n                        </li>\r\n                        <li>\r\n                            <a [routerLink]=\"['/page3']\">LINK 3</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n                <div class=\"menuList-top__right\">\r\n                    <ul>\r\n                        <li>\r\n                            <a href=\"#\">unknown 1</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 2</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 3</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 4</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 5</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 6</a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\">unknown 7</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n\r\n\r\n        </div>\r\n        <button (click)=\"menuExpanse()\"  type=\"button\" class=\"header__btn btn btn__icon\">\r\n            <mat-icon >drag_handle</mat-icon>\r\n        </button>\r\n    </div>\r\n    <span class=\"header__logo header__logo--ghost\"></span>\r\n</header>\r\n<button class=\"hide-btn\" (click)=\"hideMenu()\">\r\n    <mat-icon >motion_photos_on</mat-icon>\r\n</button>"
         },
         {
             "name": "P01Component",
-            "id": "component-P01Component-73e2c5242bb5c247086fa43f72bc6117d38d00b08e0b77eaedfa4c0606852ed522f807e3aad5b9a62046c1c80828cde623225764fc12a851bc2f7251045b41df",
+            "id": "component-P01Component-97c95c0969865d335914e610e81f7aa1854ef953ff37bc21e1597255f1ded8208b9209ace465bf3f09109393b29c107d8e726b1d7e1a4ec868e34a77f484eb73",
             "file": "src/app/page01.component/page01Components/p01.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -537,7 +631,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component ({\n    selector: \"p01\",\n    templateUrl: './p01.component.html',\n    styleUrls: ['./p01.component.scss'],\n})\n\nexport class P01Component{\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component ({\r\n    selector: \"p01\",\r\n    templateUrl: './p01.component.html',\r\n    styleUrls: ['./p01.component.scss'],\r\n})\r\n\r\nexport class P01Component{\r\n}",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -550,7 +644,7 @@
         },
         {
             "name": "Page01Component",
-            "id": "component-Page01Component-8ee115b9fe4fb2a471e7d044b3ed95e366a9a372a153572d0d0117213491a13e8d4f21a43e992fc4dc9883cfdbcf41237e75c7c27c73ef69fcdf44040e26a34d",
+            "id": "component-Page01Component-aa109c302423d971d3e6bf8c6ad4d90a10e21549b3a333f3476c5396c8d935aa930c69858942fdaed735a3cfc7f584abe4115f73feb3adedded9b788879b6ac3",
             "file": "src/app/page01.component/page01.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -604,7 +698,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component ({\n    selector: \"page01\",\n    templateUrl: './page01.component.html',\n    styleUrls: ['./page01.component.scss']\n})\n\nexport class Page01Component{\n    public titulo_page = 'PRIMERA PAGINA';\n    public text_page = 'Texto prueba primera pagina de ts';\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component ({\r\n    selector: \"page01\",\r\n    templateUrl: './page01.component.html',\r\n    styleUrls: ['./page01.component.scss']\r\n})\r\n\r\nexport class Page01Component{\r\n    public titulo_page = 'PRIMERA PAGINA';\r\n    public text_page = 'Texto prueba primera pagina de ts';\r\n}",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -613,11 +707,11 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<section  class=\"section-container section-container--full-page\">\n</section>"
+            "templateData": "<section  class=\"section-container section-container--full-page\">\r\n</section>"
         },
         {
             "name": "Page02Component",
-            "id": "component-Page02Component-2839632bf9f5464760663a0df6869f67d4d4c7ef6073f904c5f1c9c922c95a3622ece0d711e950c045d3a29cc6ce9cadda21b502c994535246e99b337ccb0576",
+            "id": "component-Page02Component-5e1d00157d1f6556c1e77eb14e95c19cb0f37b16743e559d72115f956956bba956d786f9b4b09824ef9f39959bb34cf56d287fac3f7e674c6c4008b93ad58d88",
             "file": "src/app/page02.component/page02.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -724,7 +818,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { NgModule } from '@angular/core';\n\n\n@Component ({\n    selector: \"page02\",\n    templateUrl: './page02.component.html',\n    styleUrls: ['./page02.component.scss'],\n})\n\n\nexport class Page02Component{\n\n    public actNotificator: boolean = false;\n    public expSearch: boolean = false;\n\n    public titulo_page = 'SEGUNDA PAGINA';\n    public text_page = 'Soy el &%?! Jesucristo';\n\n    public expandSearch() {\n        this.expSearch = !this.expSearch;\n      }\n    public activeNotificator() {\n        this.actNotificator = !this.actNotificator;\n      }\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\nimport { NgModule } from '@angular/core';\r\n\r\n\r\n@Component ({\r\n    selector: \"page02\",\r\n    templateUrl: './page02.component.html',\r\n    styleUrls: ['./page02.component.scss'],\r\n})\r\n\r\n\r\nexport class Page02Component{\r\n\r\n    public actNotificator: boolean = false;\r\n    public expSearch: boolean = false;\r\n\r\n    public titulo_page = 'SEGUNDA PAGINA';\r\n    public text_page = 'Soy el &%?! Jesucristo';\r\n\r\n    public expandSearch() {\r\n        this.expSearch = !this.expSearch;\r\n      }\r\n    public activeNotificator() {\r\n        this.actNotificator = !this.actNotificator;\r\n      }\r\n}",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -737,7 +831,7 @@
         },
         {
             "name": "Page03Component",
-            "id": "component-Page03Component-8c34b9ade77ebaa5dd2684e5e98e2954a0cd4b0eb9d508139015cca23fd6d54df4e3693727dc4394bfb504a882945d2285f01863cb9616dd83924caae387aba6",
+            "id": "component-Page03Component-b9c3d4425916f4597b4c37513d9ba06a0517fad8720c5c554feeb816b1da7952c7723b26c5dc47a5cfb8821d380035d5a40acc845c73cc02d0842cb38686ff59",
             "file": "src/app/page03.component/page03.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -896,20 +990,20 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component ({\n    selector: \"page03\",\n    templateUrl: './page03.component.html',\n    styleUrls: ['./page03.component.scss'],\n})\n\nexport class Page03Component{\n    public titulo_page = 'Tercera PAGINA';\n    public text_page = 'Soy el &%?! Jesucristo';\n    public status: boolean = false;\n    public color01: boolean = false;\n    public color02: boolean = false;\n    public color03: boolean = false;\n\n    public clickEvent() {\n        this.status = !this.status;\n      }\n      public color01Click() {\n        this.color01 = !this.color01;\n      }\n      public color02Click() {\n        this.color02 = !this.color03;\n      }\n      public color03Click() {\n        this.color03 = !this.color03;\n      }\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component ({\r\n    selector: \"page03\",\r\n    templateUrl: './page03.component.html',\r\n    styleUrls: ['./page03.component.scss'],\r\n})\r\n\r\nexport class Page03Component{\r\n    public titulo_page = 'Tercera PAGINA';\r\n    public text_page = 'Soy el &%?! Jesucristo';\r\n    public status: boolean = false;\r\n    public color01: boolean = false;\r\n    public color02: boolean = false;\r\n    public color03: boolean = false;\r\n\r\n    public clickEvent() {\r\n        this.status = !this.status;\r\n      }\r\n      public color01Click() {\r\n        this.color01 = !this.color01;\r\n      }\r\n      public color02Click() {\r\n        this.color02 = !this.color03;\r\n      }\r\n      public color03Click() {\r\n        this.color03 = !this.color03;\r\n      }\r\n}",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".cardContainer{\n    position: relative;\n    width: 320px;\n    height: 450px;\n    background-color: #232323;\n    border-radius: 20px;\n    overflow: hidden;\n    &:before{\n        content: '';\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background-color: #a2232e;\n        clip-path: circle(150px at 80% 20%);\n        transition: 0.5s ease-in-out;\n    }\n    &__after{\n        position: absolute;\n        top: 10%;\n        left: -10%;\n        height: 100%;\n        width: 100%;\n        p{\n            line-height: 135px;\n            font-size: 12em;\n            font-weight: 800;\n            font-style: italic;\n            color: rgba(255, 255, 255, 0.04);\n        }\n    }\n    &__imgBox{\n        &.img02{\n            display: none;\n        }\n        &.img03{\n            display: none;\n        }\n        position: absolute;\n        top: 50%;\n        transform: translateY(-75%);\n        z-index: 300;\n        width: 100%;\n        height: 200px;\n        transition: 1s;\n        .imgBox{\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            transform: translate(-50%, -50%) rotate(-25deg) scaleX(-1);\n            width: 270px;\n        }\n    }\n    &__content{\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        position: absolute;\n        bottom: 0;\n        width: 100%;\n        height: 100px;\n        text-align: center;\n        transition: 1s;\n        z-index: 10;\n        h2{\n            position: relative;\n            font-weight: 600;\n            letter-spacing: 1px;\n            color: #fff;\n        }\n        a{\n            display: inline-block;\n            padding: 10px 20px;\n            background-color: #fff;\n            border-radius: 4px;\n            margin-top: 10px;\n            text-decoration: none;\n            font-weight: 600;\n            color: #111;\n            opacity: 0;\n            transform: translateY(50px);\n            transition: 0.5s;\n        }\n    }\n    &__size, &__color{\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        padding: 8px 20px;\n        transition: 0.5s;\n        opacity: 0;\n        visibility: hidden;\n        h3{\n            color: #fff;\n            font-weight: 300;\n            font-size: 14px;\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            margin-right: 10px;\n            margin-bottom: 0;\n        }\n        span, button{\n            width: 26px;\n            height: 26px;\n            text-align: center;\n            line-height: 26px;\n            font-size: 14px;\n            display: inline-block;\n            color: #111;\n            background-color: #fff;\n            margin: 0 5px;\n            transition: 0.5s;\n            color: #111;\n            border-radius: 5px;\n            cursor: pointer;\n            &:hover{\n                background-color: #024281;\n                color: #fff;\n            }\n        }\n    }\n    &__color{\n        button{\n            border-radius: 100px;\n            position: relative;\n            overflow: hidden;\n            -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\n            -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\n            box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\n            border: 0;\n            &:nth-child(2){\n                background-color: #a2232e;\n                &:before{\n                    content: '';\n                    width: 200%;\n                    height: 200%;\n                    background-color: #024281;\n                    top: -2px;\n                    left: -147%;\n                    position: absolute;\n                    z-index: 5;\n                    transform: rotate(45deg);\n                }\n            }\n            &:nth-child(3){\n                background-color: #f0c600;\n                &:before{\n                    content: '';\n                    width: 200%;\n                    height: 200%;\n                    background-color: #81027a;\n                    top: -2px;\n                    left: -147%;\n                    position: absolute;\n                    z-index: 5;\n                    transform: rotate(45deg);\n                }\n            }\n            &:nth-child(4){\n                background-color: #f400d4;\n                &:before{\n                    content: '';\n                    width: 200%;\n                    height: 200%;\n                    background-color: #05cb00;\n                    top: -2px;\n                    left: -147%;\n                    position: absolute;\n                    z-index: 5;\n                    transform: rotate(45deg);\n                }\n            }\n            &:hover{\n                border: 2px solid #fff;\n            }\n        }\n    }\n    &:hover{\n        .cardContainer__imgBox{\n            top: 5%;\n            transform: translateY(0%);\n        }\n        .cardContainer__content{\n            height: 210px;\n            .cardContainer__size{\n                opacity: 1;\n                visibility: visible;\n                transition-delay: 0.5s;\n            }\n            .cardContainer__color{\n                opacity: 1;\n                visibility: visible;\n                transition-delay: 0.5s;\n            }\n            a{\n                opacity: 1;\n                transform: translateY(0px);\n                transition-delay: 0.75s;            \n                &:hover{\n                    background-color: #024281;\n                    color: #fff;\n                    transition-delay: 0s;\n                }\n            }\n        }\n        &:before{\n            clip-path: circle(300px at 80% 20%);\n        }\n    }\n\n    &.changeColor01{\n        &:before{\n            content: '';\n            background-color: #a2232e;\n        }\n        .cardContainer__imgBox{\n            &.img01{\n                display: initial;\n            }\n            &.img02{\n                display: none;\n            }\n            &.img03{\n                display: none;\n            }\n        }\n        .cardContainer__size{\n            span{\n                &:hover{\n                    background-color: #024281;\n                }\n            }\n        }\n        &:hover{\n            a{\n                &:hover{\n                    background-color: #024281;\n                }\n            }\n        }\n    }\n    &.changeColor02{\n        &:before{\n            content: '';\n            background-color: #f0c600;\n        }\n        .cardContainer__imgBox{\n            &.img01{\n                display: none;\n            }\n            &.img02{\n                display: initial;\n            }\n            &.img03{\n                display: none;\n            }\n        }\n        .cardContainer__size{\n            span{\n                &:hover{\n                    background-color: #81027a !important;\n                }\n            }\n        }\n        &:hover{\n            a{\n                &:hover{\n                    background-color: #81027a !important;\n                }\n            }\n        }\n    }\n    &.changeColor03{\n        &:before{\n            content: '';\n            background-color: #f400d4;\n        }\n        .cardContainer__imgBox{\n            &.img01{\n                display: none;\n            }\n            &.img02{\n                display: none;\n            }\n            &.img03{\n                display: initial;\n            }\n        }\n        .cardContainer__size{\n            span{\n                &:hover{\n                    background-color: #05cb00 !important;\n                    color: #232323 !important;\n                }\n            }\n        }\n        &:hover{\n            a{\n                &:hover{\n                    background-color: #05cb00 !important;\n                    color: #232323 !important;\n                }\n            }\n        }\n    }\n}",
+                    "data": ".cardContainer{\r\n    position: relative;\r\n    width: 320px;\r\n    height: 450px;\r\n    background-color: #232323;\r\n    border-radius: 20px;\r\n    overflow: hidden;\r\n    &:before{\r\n        content: '';\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        background-color: #a2232e;\r\n        clip-path: circle(150px at 80% 20%);\r\n        transition: 0.5s ease-in-out;\r\n    }\r\n    &__after{\r\n        position: absolute;\r\n        top: 10%;\r\n        left: -10%;\r\n        height: 100%;\r\n        width: 100%;\r\n        p{\r\n            line-height: 135px;\r\n            font-size: 12em;\r\n            font-weight: 800;\r\n            font-style: italic;\r\n            color: rgba(255, 255, 255, 0.04);\r\n        }\r\n    }\r\n    &__imgBox{\r\n        &.img02{\r\n            display: none;\r\n        }\r\n        &.img03{\r\n            display: none;\r\n        }\r\n        position: absolute;\r\n        top: 50%;\r\n        transform: translateY(-75%);\r\n        z-index: 300;\r\n        width: 100%;\r\n        height: 200px;\r\n        transition: 1s;\r\n        .imgBox{\r\n            position: absolute;\r\n            top: 50%;\r\n            left: 50%;\r\n            transform: translate(-50%, -50%) rotate(-25deg) scaleX(-1);\r\n            width: 270px;\r\n        }\r\n    }\r\n    &__content{\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        position: absolute;\r\n        bottom: 0;\r\n        width: 100%;\r\n        height: 100px;\r\n        text-align: center;\r\n        transition: 1s;\r\n        z-index: 10;\r\n        h2{\r\n            position: relative;\r\n            font-weight: 600;\r\n            letter-spacing: 1px;\r\n            color: #fff;\r\n        }\r\n        a{\r\n            display: inline-block;\r\n            padding: 10px 20px;\r\n            background-color: #fff;\r\n            border-radius: 4px;\r\n            margin-top: 10px;\r\n            text-decoration: none;\r\n            font-weight: 600;\r\n            color: #111;\r\n            opacity: 0;\r\n            transform: translateY(50px);\r\n            transition: 0.5s;\r\n        }\r\n    }\r\n    &__size, &__color{\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 8px 20px;\r\n        transition: 0.5s;\r\n        opacity: 0;\r\n        visibility: hidden;\r\n        h3{\r\n            color: #fff;\r\n            font-weight: 300;\r\n            font-size: 14px;\r\n            text-transform: uppercase;\r\n            letter-spacing: 2px;\r\n            margin-right: 10px;\r\n            margin-bottom: 0;\r\n        }\r\n        span, button{\r\n            width: 26px;\r\n            height: 26px;\r\n            text-align: center;\r\n            line-height: 26px;\r\n            font-size: 14px;\r\n            display: inline-block;\r\n            color: #111;\r\n            background-color: #fff;\r\n            margin: 0 5px;\r\n            transition: 0.5s;\r\n            color: #111;\r\n            border-radius: 5px;\r\n            cursor: pointer;\r\n            &:hover{\r\n                background-color: #024281;\r\n                color: #fff;\r\n            }\r\n        }\r\n    }\r\n    &__color{\r\n        button{\r\n            border-radius: 100px;\r\n            position: relative;\r\n            overflow: hidden;\r\n            -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.35);\r\n            border: 0;\r\n            &:nth-child(2){\r\n                background-color: #a2232e;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #024281;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:nth-child(3){\r\n                background-color: #f0c600;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #81027a;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:nth-child(4){\r\n                background-color: #f400d4;\r\n                &:before{\r\n                    content: '';\r\n                    width: 200%;\r\n                    height: 200%;\r\n                    background-color: #05cb00;\r\n                    top: -2px;\r\n                    left: -147%;\r\n                    position: absolute;\r\n                    z-index: 5;\r\n                    transform: rotate(45deg);\r\n                }\r\n            }\r\n            &:hover{\r\n                border: 2px solid #fff;\r\n            }\r\n        }\r\n    }\r\n    &:hover{\r\n        .cardContainer__imgBox{\r\n            top: 5%;\r\n            transform: translateY(0%);\r\n        }\r\n        .cardContainer__content{\r\n            height: 210px;\r\n            .cardContainer__size{\r\n                opacity: 1;\r\n                visibility: visible;\r\n                transition-delay: 0.5s;\r\n            }\r\n            .cardContainer__color{\r\n                opacity: 1;\r\n                visibility: visible;\r\n                transition-delay: 0.5s;\r\n            }\r\n            a{\r\n                opacity: 1;\r\n                transform: translateY(0px);\r\n                transition-delay: 0.75s;            \r\n                &:hover{\r\n                    background-color: #024281;\r\n                    color: #fff;\r\n                    transition-delay: 0s;\r\n                }\r\n            }\r\n        }\r\n        &:before{\r\n            clip-path: circle(300px at 80% 20%);\r\n        }\r\n    }\r\n\r\n    &.changeColor01{\r\n        &:before{\r\n            content: '';\r\n            background-color: #a2232e;\r\n        }\r\n        .cardContainer__imgBox{\r\n            &.img01{\r\n                display: initial;\r\n            }\r\n            &.img02{\r\n                display: none;\r\n            }\r\n            &.img03{\r\n                display: none;\r\n            }\r\n        }\r\n        .cardContainer__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #024281;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #024281;\r\n                }\r\n            }\r\n        }\r\n    }\r\n    &.changeColor02{\r\n        &:before{\r\n            content: '';\r\n            background-color: #f0c600;\r\n        }\r\n        .cardContainer__imgBox{\r\n            &.img01{\r\n                display: none;\r\n            }\r\n            &.img02{\r\n                display: initial;\r\n            }\r\n            &.img03{\r\n                display: none;\r\n            }\r\n        }\r\n        .cardContainer__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #81027a !important;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #81027a !important;\r\n                }\r\n            }\r\n        }\r\n    }\r\n    &.changeColor03{\r\n        &:before{\r\n            content: '';\r\n            background-color: #f400d4;\r\n        }\r\n        .cardContainer__imgBox{\r\n            &.img01{\r\n                display: none;\r\n            }\r\n            &.img02{\r\n                display: none;\r\n            }\r\n            &.img03{\r\n                display: initial;\r\n            }\r\n        }\r\n        .cardContainer__size{\r\n            span{\r\n                &:hover{\r\n                    background-color: #05cb00 !important;\r\n                    color: #232323 !important;\r\n                }\r\n            }\r\n        }\r\n        &:hover{\r\n            a{\r\n                &:hover{\r\n                    background-color: #05cb00 !important;\r\n                    color: #232323 !important;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",
                     "styleUrl": "./page03.component.scss"
                 }
             ],
             "stylesData": "",
-            "templateData": "<section class=\"section-container section-container--center\">\n    <div class=\"cardContainer\" [ngClass]=\"color01 ? 'changeColor01' : ' '\" [ngClass]=\"color02 ? 'changeColor02' : ' '\" [ngClass]=\"color03 ? 'changeColor03' : ' '\">\n        <div class=\"cardContainer__imgBox img01\">\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air.png\">\n        </div>\n        <div class=\"cardContainer__imgBox img02\">\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air2.png\">\n        </div>\n        <div class=\"cardContainer__imgBox img03\">\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air3.png\">\n        </div>\n        <div class=\"cardContainer__after\">\n            <p>Air<br/>Jordan</p>\n        </div>\n        <div class=\"cardContainer__content\">\n            <h2>Nike Air Jordan</h2>\n            <div class=\"cardContainer__size\">\n                <h3>size: </h3>\n                <span>7</span>\n                <span>8</span>\n                <span>9</span>\n                <span>10</span>\n            </div>\n            <div class=\"cardContainer__color\">\n                <h3>Color: </h3>\n                <button type=\"button\" (click)=\"color01Click()\"></button>\n                <button type=\"button\" (click)=\"color02Click()\"></button>\n                <button type=\"button\" (click)=\"color03Click()\"></button>\n            </div>\n            <a href=\"#\">Comprar</a>\n        </div>\n    </div>\n</section>"
+            "templateData": "<section class=\"section-container section-container--center\">\r\n    <div class=\"cardContainer\" [ngClass]=\"color01 ? 'changeColor01' : ' '\" [ngClass]=\"color02 ? 'changeColor02' : ' '\" [ngClass]=\"color03 ? 'changeColor03' : ' '\">\r\n        <div class=\"cardContainer__imgBox img01\">\r\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air.png\">\r\n        </div>\r\n        <div class=\"cardContainer__imgBox img02\">\r\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air2.png\">\r\n        </div>\r\n        <div class=\"cardContainer__imgBox img03\">\r\n            <img class=\"imgBox\" src=\"../../assets/img/page03-img/air3.png\">\r\n        </div>\r\n        <div class=\"cardContainer__after\">\r\n            <p>Air<br/>Jordan</p>\r\n        </div>\r\n        <div class=\"cardContainer__content\">\r\n            <h2>Nike Air Jordan</h2>\r\n            <div class=\"cardContainer__size\">\r\n                <h3>size: </h3>\r\n                <span>7</span>\r\n                <span>8</span>\r\n                <span>9</span>\r\n                <span>10</span>\r\n            </div>\r\n            <div class=\"cardContainer__color\">\r\n                <h3>Color: </h3>\r\n                <button type=\"button\" (click)=\"color01Click()\"></button>\r\n                <button type=\"button\" (click)=\"color02Click()\"></button>\r\n                <button type=\"button\" (click)=\"color03Click()\"></button>\r\n            </div>\r\n            <a href=\"#\">Comprar</a>\r\n        </div>\r\n    </div>\r\n</section>"
         },
         {
             "name": "PageComponent",
-            "id": "component-PageComponent-7126d8c2607c946741c651482413b43feb72b2d63cac9d3ac173fde206a5e635eb4cdbf7ca7ac9327c7d4d05cf7ef619144c34c11609ad677081d0ee4e855064",
+            "id": "component-PageComponent-1fc7c24c98b4f0b0f413d91f5a6126f11ad55647457f5a7f372b7f83fe8ecd6dbe67b5ca4b826ed20b9bfbc04d5606b15f82a203b1311f98b18bd28ec9f4fc7c",
             "file": "src/stories/page.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -977,11 +1071,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { User } from './User';\n\n@Component({\n  selector: 'storybook-page',\n  template: `<article>\n    <storybook-header\n      [user]=\"user\"\n      (onLogout)=\"doLogout()\"\n      (onLogin)=\"doLogin()\"\n      (onCreateAccount)=\"doCreateAccount()\"\n    ></storybook-header>\n    <section>\n      <h2>Pages in Storybook</h2>\n      <p>\n        We recommend building UIs with a\n        <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <strong>component-driven</strong>\n        </a>\n        process starting with atomic components and ending with pages.\n      </p>\n      <p>\n        Render pages with mock data. This makes it easy to build and review page states without\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\n        in Storybook:\n      </p>\n      <ul>\n        <li>\n          Use a higher-level connected component. Storybook helps you compose such data from the\n          \"args\" of child component stories\n        </li>\n        <li>\n          Assemble data in the page component from your services. You can mock these services out\n          using Storybook.\n        </li>\n      </ul>\n      <p>\n        Get a guided tutorial on component-driven development at\n        <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n          Storybook tutorials\n        </a>\n        . Read more in the\n        <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n        .\n      </p>\n      <div class=\"tip-wrapper\">\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n              id=\"a\"\n              fill=\"#999\"\n            />\n          </g>\n        </svg>\n        Viewports addon in the toolbar\n      </div>\n    </section>\n  </article>`,\n  styleUrls: ['./page.css'],\n})\nexport default class PageComponent {\n  user: User | null = null;\n\n  doLogout() {\n    this.user = null;\n  }\n\n  doLogin() {\n    this.user = { name: 'Jane Doe' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Jane Doe' };\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\r\nimport { User } from './User';\r\n\r\n@Component({\r\n  selector: 'storybook-page',\r\n  template: `<article>\r\n    <storybook-header\r\n      [user]=\"user\"\r\n      (onLogout)=\"doLogout()\"\r\n      (onLogin)=\"doLogin()\"\r\n      (onCreateAccount)=\"doCreateAccount()\"\r\n    ></storybook-header>\r\n    <section>\r\n      <h2>Pages in Storybook</h2>\r\n      <p>\r\n        We recommend building UIs with a\r\n        <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <strong>component-driven</strong>\r\n        </a>\r\n        process starting with atomic components and ending with pages.\r\n      </p>\r\n      <p>\r\n        Render pages with mock data. This makes it easy to build and review page states without\r\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\r\n        in Storybook:\r\n      </p>\r\n      <ul>\r\n        <li>\r\n          Use a higher-level connected component. Storybook helps you compose such data from the\r\n          \"args\" of child component stories\r\n        </li>\r\n        <li>\r\n          Assemble data in the page component from your services. You can mock these services out\r\n          using Storybook.\r\n        </li>\r\n      </ul>\r\n      <p>\r\n        Get a guided tutorial on component-driven development at\r\n        <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          Storybook tutorials\r\n        </a>\r\n        . Read more in the\r\n        <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\r\n        .\r\n      </p>\r\n      <div class=\"tip-wrapper\">\r\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\r\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\r\n          <g fill=\"none\" fillRule=\"evenodd\">\r\n            <path\r\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\r\n              id=\"a\"\r\n              fill=\"#999\"\r\n            />\r\n          </g>\r\n        </svg>\r\n        Viewports addon in the toolbar\r\n      </div>\r\n    </section>\r\n  </article>`,\r\n  styleUrls: ['./page.css'],\r\n})\r\nexport default class PageComponent {\r\n  user: User | null = null;\r\n\r\n  doLogout() {\r\n    this.user = null;\r\n  }\r\n\r\n  doLogin() {\r\n    this.user = { name: 'Jane Doe' };\r\n  }\r\n\r\n  doCreateAccount() {\r\n    this.user = { name: 'Jane Doe' };\r\n  }\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "section {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 24px;\n  padding: 48px 20px;\n  margin: 0 auto;\n  max-width: 600px;\n  color: #333;\n}\n\nsection h2 {\n  font-weight: 900;\n  font-size: 32px;\n  line-height: 1;\n  margin: 0 0 4px;\n  display: inline-block;\n  vertical-align: top;\n}\n\nsection p {\n  margin: 1em 0;\n}\n\nsection a {\n  text-decoration: none;\n  color: #1ea7fd;\n}\n\nsection ul {\n  padding-left: 30px;\n  margin: 1em 0;\n}\n\nsection li {\n  margin-bottom: 8px;\n}\n\nsection .tip {\n  display: inline-block;\n  border-radius: 1em;\n  font-size: 11px;\n  line-height: 12px;\n  font-weight: 700;\n  background: #e7fdd8;\n  color: #66bf3c;\n  padding: 4px 12px;\n  margin-right: 10px;\n  vertical-align: top;\n}\n\nsection .tip-wrapper {\n  font-size: 13px;\n  line-height: 20px;\n  margin-top: 40px;\n  margin-bottom: 40px;\n}\n\nsection .tip-wrapper svg {\n  display: inline-block;\n  height: 12px;\n  width: 12px;\n  margin-right: 4px;\n  vertical-align: top;\n  margin-top: 3px;\n}\n\nsection .tip-wrapper svg path {\n  fill: #1ea7fd;\n}\n",
+                    "data": "section {\r\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n  font-size: 14px;\r\n  line-height: 24px;\r\n  padding: 48px 20px;\r\n  margin: 0 auto;\r\n  max-width: 600px;\r\n  color: #333;\r\n}\r\n\r\nsection h2 {\r\n  font-weight: 900;\r\n  font-size: 32px;\r\n  line-height: 1;\r\n  margin: 0 0 4px;\r\n  display: inline-block;\r\n  vertical-align: top;\r\n}\r\n\r\nsection p {\r\n  margin: 1em 0;\r\n}\r\n\r\nsection a {\r\n  text-decoration: none;\r\n  color: #1ea7fd;\r\n}\r\n\r\nsection ul {\r\n  padding-left: 30px;\r\n  margin: 1em 0;\r\n}\r\n\r\nsection li {\r\n  margin-bottom: 8px;\r\n}\r\n\r\nsection .tip {\r\n  display: inline-block;\r\n  border-radius: 1em;\r\n  font-size: 11px;\r\n  line-height: 12px;\r\n  font-weight: 700;\r\n  background: #e7fdd8;\r\n  color: #66bf3c;\r\n  padding: 4px 12px;\r\n  margin-right: 10px;\r\n  vertical-align: top;\r\n}\r\n\r\nsection .tip-wrapper {\r\n  font-size: 13px;\r\n  line-height: 20px;\r\n  margin-top: 40px;\r\n  margin-bottom: 40px;\r\n}\r\n\r\nsection .tip-wrapper svg {\r\n  display: inline-block;\r\n  height: 12px;\r\n  width: 12px;\r\n  margin-right: 4px;\r\n  vertical-align: top;\r\n  margin-top: 3px;\r\n}\r\n\r\nsection .tip-wrapper svg path {\r\n  fill: #1ea7fd;\r\n}\r\n",
                     "styleUrl": "./page.css"
                 }
             ],
@@ -991,13 +1085,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-4b6da5fee0bec46947af99f2a11b947613190d8791c2a5e434fa95f10422f8a8ce044a3b3b06f5615174348358c826e05da8497111dfa199609808e98f3db539",
+            "id": "module-AppModule-3f6113b14a92e8d5631971f7919b2619ec59f07233a8aeab9981196ba61c2c89dcf9dfd7c2d969151709443f4e2174afa5ad4accd07abfa5c02d231a5d3fda71",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\n\nimport { AppComponent } from './app.component';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\n\nimport { routing, appRoutingProviders } from './app.routing';\n\nimport { Componente01Component} from './componente01/componente01.component';\n\nimport { HeaderComponent } from './components/header.component/header.component'\nimport { MaterialModule } from './material-module';\nimport { Page02Component } from './page02.component/page02.component';\nimport { Page03Component } from './page03.component/page03.component';\nimport {Page01Module} from './page01.component/page01.module'\n@NgModule({\n  declarations: [\n    AppComponent,\n    Componente01Component,\n    HeaderComponent,\n    Page02Component,\n    Page03Component\n  ],\n  imports: [\n    BrowserModule,\n    BrowserAnimationsModule,\n    MaterialModule,\n    Page01Module,\n    routing,\n  ],\n  providers: [appRoutingProviders],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { BrowserModule } from '@angular/platform-browser';\r\nimport { NgModule } from '@angular/core';\r\n\r\nimport { AppComponent } from './app.component';\r\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\r\n\r\nimport { routing, appRoutingProviders } from './app.routing';\r\n\r\nimport { Componente01Component} from './componente01/componente01.component';\r\n\r\nimport { HeaderComponent } from './components/header.component/header.component'\r\nimport { MaterialModule } from './material-module';\r\nimport { Page02Component } from './page02.component/page02.component';\r\nimport { Page03Component } from './page03.component/page03.component';\r\nimport {Page01Module} from './page01.component/page01.module'\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    Componente01Component,\r\n    HeaderComponent,\r\n    Page02Component,\r\n    Page03Component\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    BrowserAnimationsModule,\r\n    MaterialModule,\r\n    Page01Module,\r\n    routing,\r\n  ],\r\n  providers: [appRoutingProviders],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n",
             "children": [
                 {
                     "type": "providers",
@@ -1051,13 +1145,13 @@
         },
         {
             "name": "MaterialModule",
-            "id": "module-MaterialModule-c366941470ea17b12112bf823e3cab2bbfa8f50cd6a32ff803967e009bdfc471fedec2b9b932c65d30f8007becab41dc1a6dc9ce873365db86b662ffb435ad02",
+            "id": "module-MaterialModule-0a802d4dd0097803df75909c706daf7841268cb1d818c8a5223d9e07e9004b5c6a980e109892731207b583ec56812a912cef402272744502ac19d21410e6e736",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/material-module.ts",
             "methods": [],
-            "sourceCode": "import {NgModule} from '@angular/core';\nimport {A11yModule} from '@angular/cdk/a11y';\nimport {ClipboardModule} from '@angular/cdk/clipboard';\nimport {DragDropModule} from '@angular/cdk/drag-drop';\nimport {PortalModule} from '@angular/cdk/portal';\nimport {ScrollingModule} from '@angular/cdk/scrolling';\nimport {CdkStepperModule} from '@angular/cdk/stepper';\nimport {CdkTableModule} from '@angular/cdk/table';\nimport {CdkTreeModule} from '@angular/cdk/tree';\nimport {MatAutocompleteModule} from '@angular/material/autocomplete';\nimport {MatBadgeModule} from '@angular/material/badge';\nimport {MatBottomSheetModule} from '@angular/material/bottom-sheet';\nimport {MatButtonModule} from '@angular/material/button';\nimport {MatButtonToggleModule} from '@angular/material/button-toggle';\nimport {MatCardModule} from '@angular/material/card';\nimport {MatCheckboxModule} from '@angular/material/checkbox';\nimport {MatChipsModule} from '@angular/material/chips';\nimport {MatStepperModule} from '@angular/material/stepper';\nimport {MatDatepickerModule} from '@angular/material/datepicker';\nimport {MatDialogModule} from '@angular/material/dialog';\nimport {MatDividerModule} from '@angular/material/divider';\nimport {MatExpansionModule} from '@angular/material/expansion';\nimport {MatGridListModule} from '@angular/material/grid-list';\nimport {MatIconModule} from '@angular/material/icon';\nimport {MatInputModule} from '@angular/material/input';\nimport {MatListModule} from '@angular/material/list';\nimport {MatMenuModule} from '@angular/material/menu';\nimport {MatNativeDateModule, MatRippleModule} from '@angular/material/core';\nimport {MatPaginatorModule} from '@angular/material/paginator';\nimport {MatProgressBarModule} from '@angular/material/progress-bar';\nimport {MatProgressSpinnerModule} from '@angular/material/progress-spinner';\nimport {MatRadioModule} from '@angular/material/radio';\nimport {MatSelectModule} from '@angular/material/select';\nimport {MatSidenavModule} from '@angular/material/sidenav';\nimport {MatSliderModule} from '@angular/material/slider';\nimport {MatSlideToggleModule} from '@angular/material/slide-toggle';\nimport {MatSnackBarModule} from '@angular/material/snack-bar';\nimport {MatSortModule} from '@angular/material/sort';\nimport {MatTableModule} from '@angular/material/table';\nimport {MatTabsModule} from '@angular/material/tabs';\nimport {MatToolbarModule} from '@angular/material/toolbar';\nimport {MatTooltipModule} from '@angular/material/tooltip';\nimport {MatTreeModule} from '@angular/material/tree';\n\n@NgModule({\n  exports: [\n    A11yModule,\n    ClipboardModule,\n    CdkStepperModule,\n    CdkTableModule,\n    CdkTreeModule,\n    DragDropModule,\n    MatAutocompleteModule,\n    MatBadgeModule,\n    MatBottomSheetModule,\n    MatButtonModule,\n    MatButtonToggleModule,\n    MatCardModule,\n    MatCheckboxModule,\n    MatChipsModule,\n    MatStepperModule,\n    MatDatepickerModule,\n    MatDialogModule,\n    MatDividerModule,\n    MatExpansionModule,\n    MatGridListModule,\n    MatIconModule,\n    MatInputModule,\n    MatListModule,\n    MatMenuModule,\n    MatNativeDateModule,\n    MatPaginatorModule,\n    MatProgressBarModule,\n    MatProgressSpinnerModule,\n    MatRadioModule,\n    MatRippleModule,\n    MatSelectModule,\n    MatSidenavModule,\n    MatSliderModule,\n    MatSlideToggleModule,\n    MatSnackBarModule,\n    MatSortModule,\n    MatTableModule,\n    MatTabsModule,\n    MatToolbarModule,\n    MatTooltipModule,\n    MatTreeModule,\n    PortalModule,\n    ScrollingModule,\n  ]\n})\nexport class MaterialModule {}",
+            "sourceCode": "import {NgModule} from '@angular/core';\r\nimport {A11yModule} from '@angular/cdk/a11y';\r\nimport {ClipboardModule} from '@angular/cdk/clipboard';\r\nimport {DragDropModule} from '@angular/cdk/drag-drop';\r\nimport {PortalModule} from '@angular/cdk/portal';\r\nimport {ScrollingModule} from '@angular/cdk/scrolling';\r\nimport {CdkStepperModule} from '@angular/cdk/stepper';\r\nimport {CdkTableModule} from '@angular/cdk/table';\r\nimport {CdkTreeModule} from '@angular/cdk/tree';\r\nimport {MatAutocompleteModule} from '@angular/material/autocomplete';\r\nimport {MatBadgeModule} from '@angular/material/badge';\r\nimport {MatBottomSheetModule} from '@angular/material/bottom-sheet';\r\nimport {MatButtonModule} from '@angular/material/button';\r\nimport {MatButtonToggleModule} from '@angular/material/button-toggle';\r\nimport {MatCardModule} from '@angular/material/card';\r\nimport {MatCheckboxModule} from '@angular/material/checkbox';\r\nimport {MatChipsModule} from '@angular/material/chips';\r\nimport {MatStepperModule} from '@angular/material/stepper';\r\nimport {MatDatepickerModule} from '@angular/material/datepicker';\r\nimport {MatDialogModule} from '@angular/material/dialog';\r\nimport {MatDividerModule} from '@angular/material/divider';\r\nimport {MatExpansionModule} from '@angular/material/expansion';\r\nimport {MatGridListModule} from '@angular/material/grid-list';\r\nimport {MatIconModule} from '@angular/material/icon';\r\nimport {MatInputModule} from '@angular/material/input';\r\nimport {MatListModule} from '@angular/material/list';\r\nimport {MatMenuModule} from '@angular/material/menu';\r\nimport {MatNativeDateModule, MatRippleModule} from '@angular/material/core';\r\nimport {MatPaginatorModule} from '@angular/material/paginator';\r\nimport {MatProgressBarModule} from '@angular/material/progress-bar';\r\nimport {MatProgressSpinnerModule} from '@angular/material/progress-spinner';\r\nimport {MatRadioModule} from '@angular/material/radio';\r\nimport {MatSelectModule} from '@angular/material/select';\r\nimport {MatSidenavModule} from '@angular/material/sidenav';\r\nimport {MatSliderModule} from '@angular/material/slider';\r\nimport {MatSlideToggleModule} from '@angular/material/slide-toggle';\r\nimport {MatSnackBarModule} from '@angular/material/snack-bar';\r\nimport {MatSortModule} from '@angular/material/sort';\r\nimport {MatTableModule} from '@angular/material/table';\r\nimport {MatTabsModule} from '@angular/material/tabs';\r\nimport {MatToolbarModule} from '@angular/material/toolbar';\r\nimport {MatTooltipModule} from '@angular/material/tooltip';\r\nimport {MatTreeModule} from '@angular/material/tree';\r\n\r\n@NgModule({\r\n  exports: [\r\n    A11yModule,\r\n    ClipboardModule,\r\n    CdkStepperModule,\r\n    CdkTableModule,\r\n    CdkTreeModule,\r\n    DragDropModule,\r\n    MatAutocompleteModule,\r\n    MatBadgeModule,\r\n    MatBottomSheetModule,\r\n    MatButtonModule,\r\n    MatButtonToggleModule,\r\n    MatCardModule,\r\n    MatCheckboxModule,\r\n    MatChipsModule,\r\n    MatStepperModule,\r\n    MatDatepickerModule,\r\n    MatDialogModule,\r\n    MatDividerModule,\r\n    MatExpansionModule,\r\n    MatGridListModule,\r\n    MatIconModule,\r\n    MatInputModule,\r\n    MatListModule,\r\n    MatMenuModule,\r\n    MatNativeDateModule,\r\n    MatPaginatorModule,\r\n    MatProgressBarModule,\r\n    MatProgressSpinnerModule,\r\n    MatRadioModule,\r\n    MatRippleModule,\r\n    MatSelectModule,\r\n    MatSidenavModule,\r\n    MatSliderModule,\r\n    MatSlideToggleModule,\r\n    MatSnackBarModule,\r\n    MatSortModule,\r\n    MatTableModule,\r\n    MatTabsModule,\r\n    MatToolbarModule,\r\n    MatTooltipModule,\r\n    MatTreeModule,\r\n    PortalModule,\r\n    ScrollingModule,\r\n  ]\r\n})\r\nexport class MaterialModule {}",
             "children": [
                 {
                     "type": "providers",
@@ -1087,13 +1181,13 @@
         },
         {
             "name": "Page01Module",
-            "id": "module-Page01Module-9e45fb5463939a5bd008dc2e0c015c072d1bf38b0bc536d243d5219f491fee2fca6de32b6059eb9c7a8bf6ca6a6413915f578fbee1da4bf9ae89199b19631d5e",
+            "id": "module-Page01Module-2bf05a069d41df62feac740d7de0d697cacf2898795c0e211b37b9a86b928c2d4530d5368e467d403a1b2033fb0bf391ca92340048f33373a1b4c3bde2c18431",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/page01.component/page01.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { P01Component } from './page01Components/p01.component';\n\n\n@NgModule({\n  imports: [],\n  declarations: [],\n  providers: [],\n  exports: [],\n  entryComponents: []\n})\nexport class Page01Module {}",
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { P01Component } from './page01Components/p01.component';\r\n\r\n\r\n@NgModule({\r\n  imports: [],\r\n  declarations: [],\r\n  providers: [],\r\n  exports: [],\r\n  entryComponents: []\r\n})\r\nexport class Page01Module {}",
             "children": [
                 {
                     "type": "providers",
@@ -1152,7 +1246,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
-                "defaultValue": "{\n  production: true\n}"
+                "defaultValue": "{\r\n  production: true\r\n}"
             },
             {
                 "name": "environment",
@@ -1162,7 +1256,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
-                "defaultValue": "{\n  production: false\n}"
+                "defaultValue": "{\r\n  production: false\r\n}"
             },
             {
                 "name": "Large",
@@ -1178,7 +1272,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1188,16 +1282,6 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Header.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "LoggedOut",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1209,6 +1293,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/stories/Header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "LoggedOut",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1219,6 +1313,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Card.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1271,17 +1375,17 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Button>",
-                "defaultValue": "(args: Button) => ({\n  props: args,\n})"
+                "defaultValue": "(args: Button) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/stories/Card.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<Page>",
-                "defaultValue": "(args: Page) => ({\n  props: args,\n})"
+                "type": "Story<Card>",
+                "defaultValue": "(args: Card) => ({\r\n    props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -1291,7 +1395,17 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Header>",
-                "defaultValue": "(args: Header) => ({\n  props: args,\n})"
+                "defaultValue": "(args: Header) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Page.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<Page>",
+                "defaultValue": "(args: Page) => ({\r\n  props: args,\r\n})"
             }
         ],
         "functions": [],
@@ -1350,7 +1464,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "object",
-                    "defaultValue": "{\n  production: true\n}"
+                    "defaultValue": "{\r\n  production: true\r\n}"
                 }
             ],
             "src/environments/environment.ts": [
@@ -1362,7 +1476,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "object",
-                    "defaultValue": "{\n  production: false\n}"
+                    "defaultValue": "{\r\n  production: false\r\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
@@ -1414,39 +1528,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<Button>",
-                    "defaultValue": "(args: Button) => ({\n  props: args,\n})"
-                }
-            ],
-            "src/stories/Page.stories.ts": [
-                {
-                    "name": "LoggedIn",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "LoggedOut",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<Page>",
-                    "defaultValue": "(args: Page) => ({\n  props: args,\n})"
+                    "defaultValue": "(args: Button) => ({\r\n  props: args,\r\n})"
                 }
             ],
             "src/stories/Header.stories.ts": [
@@ -1478,7 +1560,61 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<Header>",
-                    "defaultValue": "(args: Header) => ({\n  props: args,\n})"
+                    "defaultValue": "(args: Header) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/stories/Page.stories.ts": [
+                {
+                    "name": "LoggedIn",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "LoggedOut",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<Page>",
+                    "defaultValue": "(args: Page) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "src/stories/Card.stories.ts": [
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Card.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Card.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<Card>",
+                    "defaultValue": "(args: Card) => ({\r\n    props: args,\r\n})"
                 }
             ]
         },
@@ -1654,6 +1790,26 @@
                 "status": "low"
             },
             {
+                "filePath": "src/stories/Card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/Header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
@@ -1730,6 +1886,15 @@
                 "coveragePercent": 83,
                 "coverageCount": "5/6",
                 "status": "very-good"
+            },
+            {
+                "filePath": "src/stories/card.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CardComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
             },
             {
                 "filePath": "src/stories/header.component.ts",

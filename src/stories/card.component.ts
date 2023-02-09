@@ -1,10 +1,12 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Meta, Story } from '@storybook/angular';
+
 
 @Component({
   selector: 'storybook-button',
   template: ` 
   
-  <div
+  <!-- <div
   class="pepe"
     [ngClass]="classes"
     [ngStyle]="{ 'background-color': backgroundColor }"
@@ -13,20 +15,20 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       {{ title }}
   </h1>
   <p>{{text}}</p>
-</div>
+</div> -->
 
 <div 
     class="card-product"
     [ngClass]="classes"
 >
     <div class="card-product__img-box img01">
-        <img class="img-box" src="../../assets/img/page03-img/air.png">
+        <img class="img-box" src="pic_trulli.jpg">
     </div>
     <div class="card-product__after">
         <p>Air<br/>Jordan</p>
     </div>
     <div class="card-product__content">
-        <h2>Nike Air Jordan</h2>
+        <h2>Nikee Air Jordan</h2>
         <div class="card-product__size">
             <h3>size: </h3>
             <span>7</span>

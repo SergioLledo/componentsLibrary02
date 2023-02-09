@@ -8,5 +8,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions"
   ],
+  "staticDirs": [
+    "../src/stories/assets/page03-img"
+  ],
   "framework": "@storybook/angular"
 }
